@@ -1,6 +1,11 @@
-name: Snyk SCA Scan
+name: Trufflehog Scan
 
-on: [push]
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "develop" ]
 
 permissions:
   contents: read
