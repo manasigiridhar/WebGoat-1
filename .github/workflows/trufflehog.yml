@@ -1,4 +1,4 @@
-name: Trufflehog Scan
+name: Synk Scan
 
 on:
   push:
